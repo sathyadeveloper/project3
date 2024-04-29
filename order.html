@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Order</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="order">
+    <form>
+        <h1>REGISTER</h1>
+        <table>
+            
+            <tr>
+                <td>Name:</td>
+                <td><input type="text" name="name" placeholder="Enter the name"></td>
+            </tr>
+            <tr>
+                <td>Age:</td>
+                <td><input type="number" name="age" placeholder="Enter the age"></td>
+            </tr>
+            <tr>
+                <td>Gender:</td>
+                <td>
+                    <label><input type="radio" name="gender" value="male"> Male</label>
+                    <label><input type="radio" name="gender" value="female"> Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Address:</td>
+                <td><input type="text" name="address" placeholder="Enter the address"></td>
+            </tr>
+            <tr>
+                <td>Payment:</td>
+                <td>
+                    <select name="payment">
+                        <option value="online">Online</option>
+                        <option value="offline">Offline</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button type="Submit" onclick="Thankyou()">submit
+                    <button type="Reset">reset</button>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
